@@ -28,7 +28,8 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 # display the table on the page.
 streamlit.dataframe(fruits_to_show)
 
-___________________________________________________________
+#############################################################
+
 #streamlit.header("Fruityvice Fruit Advice!")
 
 #imported requests library and gettiing data from fruityvice website into our app
@@ -41,7 +42,7 @@ ___________________________________________________________
 # display it in the table form
 #streamlit.dataframe(fruityvice_normalized)
 
-_____________________
+##################################################################
 
 streamlit.header("Fruityvice Fruit Advice!")
 
@@ -50,6 +51,4 @@ streamlit.write('The user entered ', fruit_choice)
 
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
-
-___________________________
 
