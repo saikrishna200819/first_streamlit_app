@@ -59,7 +59,7 @@ streamlit.dataframe(fruityvice_normalized)
 ###
 
 #don't run anything past here while we troubleshoot
-streamlit.ctop()
+streamlit.stop()
 
 import snowflake.connector
 
